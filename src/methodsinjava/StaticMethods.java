@@ -24,6 +24,9 @@ public class StaticMethods {
 		
 		methodTwo();
 		methodOne();
+		Test.m1();// calling of m1 method from Test class
+		methodOne();
+		StaticMethods.methodTwo();// calling of methodTwo from the same class
 		
 	}
 	
