@@ -10,6 +10,8 @@ public class NonStaticVariables {
 	
 	String s = "abc";
 	
+	static int k = 30;
+	
 	
 	
 	
@@ -35,6 +37,22 @@ public class NonStaticVariables {
 	nsv.s = nsv.s + "def";
 	
 	System.out.println(nsv.s);//abcdef
+	
+	System.out.println(k);//30
+	
+	System.out.println(nsv.k);//30
+	
+	System.out.println(nsv1.k);//30
+	
+	nsv.k = 40;
+	
+	System.out.println(nsv1.k);//40
+	
+	k= 80;
+	
+	System.out.println(nsv1.k);//80
+	
+	System.out.println(nsv.k);//80
 		
 		
 	}
