@@ -21,7 +21,10 @@ public class ThisKeyword {
 		System.out.println(ThisKeyword.i);//50
 		
 		
+		ThisKeyword tk = new ThisKeyword();
+		tk.m1();
 		
+		ThisKeyword.m2();
 		
 	}
 	
