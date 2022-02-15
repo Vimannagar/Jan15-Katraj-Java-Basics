@@ -53,6 +53,27 @@ public class CategoriesOfMethods {
 	}
 	
 	
+//	d. method with return and with argument
+	
+	public static int m6(String s1, int i)
+	{
+		
+		s1 = s1+"city";
+		
+		System.out.println("value of s1 is "+s1);
+		
+		i  = i+2;
+		
+		System.out.println("Value of i is "+i);
+		
+		
+		
+		return i;
+		
+		
+	}
+	
+	
 	
 	
 	public static void main(String[] args) {
@@ -83,7 +104,23 @@ public class CategoriesOfMethods {
 		String h = com.m5();
 		System.out.println(h);
 		
+		System.out.println("******************************************");
+		
+//		int z = m6("Pune", 50);
+//		
+//		System.out.println(z);
+//		
+		
+		System.out.println(m6("pune", 50));
+		
+		
+		int w = m6("Bengaluru", 100);
+		
+		
+		System.out.println(w);
 	}
+	
+	
 	
 
 }
