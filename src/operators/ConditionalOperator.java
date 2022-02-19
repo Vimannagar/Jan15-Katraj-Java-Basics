@@ -31,6 +31,37 @@ public class ConditionalOperator {
 	System.out.println(s);
 	
 	
+//	less than '<'
+	
+	 boolean t = i<j;
+	 
+	 System.out.println(t);//false
+	 
+	 
+//		less than or equal to '<='
+	 
+	boolean v =  i<=100;
+	
+	
+	System.out.println(v);// true
+	
+	
+//	equal to operator '==' 
+	
+boolean w = i==j;
+
+System.out.println(w);// false
+
+if(i==j)
+{
+	System.out.println("if is executing ");
+}
+
+else
+{
+	System.out.println("else is executing");
+}
+	
 	
 	
 	}
