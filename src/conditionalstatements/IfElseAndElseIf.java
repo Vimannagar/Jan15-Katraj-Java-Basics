@@ -16,7 +16,9 @@ public class IfElseAndElseIf {
 //			actions
 //		}
 		
-		if(10>5)
+		int i= 10;
+	
+		if(i>5)
 		{
 			System.out.println("if is executing");
 		}
