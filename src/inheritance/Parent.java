@@ -2,10 +2,13 @@ package inheritance;
 
 public class Parent extends GrandParent  {
 
+	String s = "non static variable parent class";
 	
+	static String j = "Staticvariable parent class";
 	public void home()
 	{
 		System.out.println("Home method from parent class");
+	
 	}
 	
 	
