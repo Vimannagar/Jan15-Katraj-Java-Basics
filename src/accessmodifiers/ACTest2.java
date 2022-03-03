@@ -11,5 +11,10 @@ public class ACTest2 {
 		
 		
 	}
+	
+	private static void m4()
+	{
+		System.out.println("m4 private method");
+	}
 
 }

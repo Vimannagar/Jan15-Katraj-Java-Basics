@@ -1,7 +1,6 @@
 package revision;
 
 import accessmodifiers.ACTest1;
-import accessmodifiers.ACTest3;
 
 public class AccessTest {
 	
@@ -11,7 +10,11 @@ public class AccessTest {
 		ACTest1  t2 = new ACTest1();
 		
 		
-		ACTest3
+		ACTest1.m1();// accessing public method from other package
+		
+		
+		t2.m2();
+		
 		
 	}
 
