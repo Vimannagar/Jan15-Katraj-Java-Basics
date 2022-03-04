@@ -1,10 +1,10 @@
 package accessmodifiers;
 
-public class Child extends Test {
+public class Child  {
 
 	
 	public static void main(String[] args) {
 		Child c = new Child();
-		c.m1();
+//		c.m1();
 	}
 }

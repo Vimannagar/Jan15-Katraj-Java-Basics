@@ -36,6 +36,17 @@ public class Test {
 		System.out.println("name has been updated as per certificate");
 	}
 	
+	public void m3()
+	{
+		System.out.println("m3 method ");
+	}
+	
+	private void m3(int i)
+	{
+		System.out.println("private method m3");
+	}
+	
+	
 	
 	public static void main(String[] args) {
 		Test t = new Test();
@@ -46,4 +57,8 @@ public class Test {
 		
 		t.nameChange("Hariet", 25, "Hariet Johnson");
 	}
+	
+	
+	
+	
 }

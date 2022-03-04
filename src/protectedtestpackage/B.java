@@ -12,7 +12,11 @@ public class B extends A
 		b.m1();
 		
 		A a = new A();
-		a.m1();
+//		a.m1();// we cannot access this method by A reference variable as it is protected which can only be access by reference variable of child class outside the package.
+		
+		System.out.println(b.j);
+		
+		A.m2();
 		
 	}
 
