@@ -26,4 +26,20 @@ public class Parent {
 		System.out.println("marry method of parent class");
 	}
 	
+	public void m1()
+	{
+		System.out.println("m1 method from Parent class");
+	
+	}
+	
+	public  void m2()
+	{
+		System.out.println("m2 static method ");
+	}
+	
+	 void m3()
+	{
+		System.out.println("public m3 method");
+	}
+	
 }
