@@ -3,6 +3,11 @@ package abstractdiscussion;
 public abstract  class Test {
 
 	
+	public Test()
+	{
+		System.out.println("Constructor of Test class");
+	}
+	
 	public void loginPage()
 	{
 		System.out.println("Login method from Test class");
