@@ -19,6 +19,20 @@ public class Browser2 implements Interface1 {
 		
 		System.out.println("refresh method of browser 2");
 	}
+
+
+	@Override
+	public void sendKeys(String s) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void sendKeys() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 

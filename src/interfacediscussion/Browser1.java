@@ -21,5 +21,27 @@ public class Browser1 implements Interface1 {
 	}
 	
 	
+	public static void main(String[] args) {
+		Interface1 b1 = new Browser1();
+		b1.close();
+		
+		Interface1.m1();
+		
+	}
+
+
+	
+	public void sendKeys(String s) {
+		
+		
+	}
+
+
+
+	public void sendKeys() {
+		
+		
+	}
+	
 
 }

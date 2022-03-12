@@ -44,5 +44,19 @@ public class Test2 implements Interface2, Interface1 {
 	}
 
 
+	@Override
+	public void sendKeys(String s) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void sendKeys() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
 
 }
