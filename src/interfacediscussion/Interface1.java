@@ -2,7 +2,7 @@ package interfacediscussion;
 
 public interface Interface1 {
 	
-	
+	int i = 50;
 	void close(); 
 	
 	public abstract void back();

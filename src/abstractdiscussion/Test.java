@@ -20,7 +20,7 @@ public abstract  class Test {
 	
 	public abstract void editInformation();
 	
-	public abstract void uploadImage();
+	 abstract void uploadImage();
 	
 	
 	

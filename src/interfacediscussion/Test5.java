@@ -1,5 +1,10 @@
 package interfacediscussion;
 
-public class Test5 extends Test4{
-
+public class Test5 implements VariablesInInterface{
+	
+	
+	
+	
+	
+	
 }

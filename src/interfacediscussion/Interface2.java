@@ -1,7 +1,7 @@
 package interfacediscussion;
 
 public interface Interface2 {
-	
+	int i=60;
 	public void m1();
 	public void m2();
 	
