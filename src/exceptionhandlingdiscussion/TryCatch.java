@@ -11,6 +11,8 @@ public class TryCatch {
 		int j = 0;
 
 		 k = i / j;
+		 
+		 
 		
 		System.out.println(k);
 		
@@ -22,6 +24,17 @@ public class TryCatch {
 		catch(NullPointerException q)
 		{
 			System.out.println("Null pointer exception has arrived");
+		}
+		catch (ClassCastException c) {
+			
+		}
+		catch(Exception w)
+		{
+			System.out.println("Exception block ");
+		}
+		catch(Throwable e)
+		{
+			System.out.println("Throwable block ");
 		}
 		
 		
