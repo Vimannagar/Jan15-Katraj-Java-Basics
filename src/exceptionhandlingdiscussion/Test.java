@@ -15,14 +15,14 @@ public class Test {
 		
 		try {
 			FileInputStream f = new FileInputStream("C://programfiles");
-		} catch (FileNotFoundException e) {
+		} 
+		
+		catch (FileNotFoundException e) {
 			
-			e.printStackTrace();
+			
 		}
 		
-		catch (Exception e) {
-			
-		}
+		
 	}
 
 }
