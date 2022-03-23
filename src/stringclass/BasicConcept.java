@@ -22,14 +22,43 @@ public class BasicConcept {
 		
 		
 	boolean ispointingsame = ss==ss1;
-	System.out.println(ispointingsame);
+	System.out.println(ispointingsame);//true
 	
 	
 	boolean ispointsameobj = ss==s2;
 	
-	System.out.println(ispointsameobj);
+	System.out.println(ispointsameobj);//false
 		
-		
+	
+	
+	boolean isequal = s3.equals(s);
+	
+	System.out.println(isequal);//true
+	
+	
+	boolean isequal2 = ss.equals(s2);
+	System.out.println(isequal2);// true
+	
+	
+	
+	String var1 = "Velocity";
+	
+	
+	var1.concat(" Corporate");
+
+	
+	System.out.println("Output of String is "+var1);// Velocity--> Immutable
+	
+	
+	System.out.println("*********************************");
+	
+	StringBuffer sb = new StringBuffer("Velocity");
+	
+	sb.append(" Corporate");
+	
+	System.out.println("Output of String Buffer is "+sb);// Velocity Corporate ---> Mutable
+	
+	
 		
 	}
 }
