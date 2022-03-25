@@ -1,3 +1,6 @@
+
+
+
 package stringclass;
 
 public class MethodsInString {
@@ -141,6 +144,34 @@ public class MethodsInString {
 	
 		
 //	WAP to count a character in a String 
+	
+	
+	String s28 = "aabbaaccd";
+	int count =0;
+	
+	for(int i=0; i<s28.length(); i++)
+	{
+		char c = s28.charAt(i);
+		
+		if(c=='a')
+		{
+			count++;
+		}
+		
+	}
+	
+	System.out.println("Character a is present for "+count+" times");
+	
+	
+//	13. trim()
+	
+	String s29 = "     Happy new year     ";
+	
+	String s30 = s29.trim();
+	System.out.println(s30);//Happy new year
+	
+	
+	
 		
 	}
 	
