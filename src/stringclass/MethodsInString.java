@@ -171,8 +171,47 @@ public class MethodsInString {
 	System.out.println(s30);//Happy new year
 	
 	
+// WAP to check a String is palindrome or not	
+		String s31 = "xerex";
 	
 		
+// 14. split(String s)
+		
+	String s32 = "This is String";
+		
+	String[] s33 = s32.split("i");
+	
+	for(String ss:s33)
+	{
+		System.out.println(ss);
+	}
+	
+//	WAP to print  the reverse string without reversing the letters but the words
+//	ex. This is String ----> String is This 
+	
+	
+	
+//	15. toCharArray():
+	
+	String s34 = "String Value #123";
+	
+	char[] chararray = s34.toCharArray();
+	
+	int sizee = chararray.length;
+	for(int ii= 0; ii<sizee; ii++)
+	{
+		System.out.println(chararray[ii]);
+	}
+	
+	
+	
+//	16. ValueOf(primitive data type)
+	
+	int val = 100;
+	String stringvalue = String.valueOf(val);
+	
+	System.out.println(stringvalue+55);//10055
+	
 	}
 	
 
