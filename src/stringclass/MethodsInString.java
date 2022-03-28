@@ -205,14 +205,94 @@ public class MethodsInString {
 	
 	
 	
-//	16. ValueOf(primitive data type)
+//	16. valueOf(primitive data type)
 	
 	int val = 100;
 	String stringvalue = String.valueOf(val);
 	
 	System.out.println(stringvalue+55);//10055
 	
+	
+	boolean bol = false;
+	
+	
+	String s35 = String.valueOf(bol);
+	
+	System.out.println(s35);//false
+	
+	
+//	conversion of String to primitve data type:
+//	17. parseXxx()
+	String s36 = "10";
+	
+	int s37 =Integer.parseInt(s36);
+	
+	int addedvalue = s37+2;
+	System.out.println(addedvalue);//12
+	
+	String s39 = "56.23";
+	
+	double s40 = Double.parseDouble(s39);
+	
+	System.out.println(s40);//56.23
+	
+	String s41 = "true";
+	
+	boolean s42 = Boolean.parseBoolean(s41);
+	
+	System.out.println(s42);
+	
+	
+//	18. isDigit(char c)
+	
+	char s43 = '8';
+	
+	boolean s44 = Character.isDigit(s43);
+	
+	System.out.println(s44);//true
+	
+//	19. isAlphabetic(char ch);
+	
+	char s45 = 'g';
+	
+	boolean s46 = Character.isAlphabetic(s45);
+	
+	System.out.println(s46);//true
+	
+	
+//	WAP to print to take out the number and Alphabet from a String
+	String s47 = "sdfdsf234sdlkfj3fndslk3e3fnc";
+	
+	
+	
+//	20 replaceAll(String str):
+	
+	String s48 = "A@@c3c4e32%#nt324ure";
+	
+	String s49 = s48.replaceAll("[a-z]", ".");
+	
+	System.out.println(s49);//A@@.34.32%#..324...
+	
+	String s51 = s48.replaceAll("[a-c]", ".");
+	
+	System.out.println(s51);//A@@.34e32%#nt324ure
+	
+	String s52 = s48.replaceAll("[A-Za-z]", "0");
+	
+	System.out.println(s52);//0@@034032%#00324000
+	
+	String s53 = s48.replaceAll("[^a-z]", "1");
+	System.out.println(s53);//111c11e1111nt111ure
+	
+	String s54 = s48.replaceAll("[^a-zA-Z]", "");
+	System.out.println(s54);//Accenture
+	
+	String s55 = s48.replaceAll("[0-9]", "k");
+	System.out.println(s55);//A@@ckckekk%#ntkkkure
+	
 	}
+	
+	
 	
 
 }
